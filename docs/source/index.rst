@@ -1,4 +1,4 @@
-hockey_scraper
+Hockey-Scraper
 ==============
 
 Contents

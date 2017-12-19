@@ -5,11 +5,10 @@
    :alt: Documentation Status
 
 
-.. inclusion-marker-for-sphinx
-
 Hockey-Scraper
 ==============
 
+.. inclusion-marker-for-sphinx
 
 
 Purpose
