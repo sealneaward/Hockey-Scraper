@@ -1,7 +1,16 @@
-hockey_scraper
-==============
+.. image:: https://badge.fury.io/py/hockey-scraper.svg
+   :target: https://badge.fury.io/py/hockey-scraper
+.. image:: https://readthedocs.org/projects/hockey-scraper/badge/?version=latest
+   :target: https://readthedocs.org/projects/hockey-scraper/?badge=latest
+   :alt: Documentation Status
+
 
 .. inclusion-marker-for-sphinx
+
+Hockey-Scraper
+==============
+
+
 
 Purpose
 -------
@@ -71,7 +80,7 @@ Scrape all games in a given date range:
     scraped_data = hockey_scraper.scrape_date_range('2015-1-1', '2015-1-15', False, data_format='Json')
 
 
-The full documentation can be found here (..........).
+The full documentation can be found `here <http://hockey-scraper.readthedocs.io/en/latest/>`_.
 
 
 Contact
