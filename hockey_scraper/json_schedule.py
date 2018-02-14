@@ -11,14 +11,14 @@ import hockey_scraper.shared as shared
 def get_schedule(date_from, date_to):
     """
     Scrapes games in date range
-    Ex: https://statsapi.web.nhl.com/api/v1/schedule?startDate=2010-10-03&endDate=2011-06-20
+    Ex: http://statsapi.web.nhl.com/api/v1/schedule?startDate=2010-10-03&endDate=2011-06-20
     
     :param date_from: scrape from this date
     :param date_to: scrape until this date
     
     :return: raw json of schedule of date range
     """
-    url = 'https://statsapi.web.nhl.com/api/v1/schedule?startDate={a}&endDate={b}'.format(a=date_from, b=date_to)
+    url = 'http://statsapi.web.nhl.com/api/v1/schedule?startDate={a}&endDate={b}'.format(a=date_from, b=date_to)
 
     response = shared.get_url(url)
     time.sleep(1)
