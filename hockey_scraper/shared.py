@@ -163,7 +163,7 @@ def get_url(url):
     try:
         response = response.get(url, timeout=5)
         response.raise_for_status()
-    except (requests.exceptions.HTTPError, requests.exceptions.ConnectionError):
+    except Exception:
         return None
 
     return response
